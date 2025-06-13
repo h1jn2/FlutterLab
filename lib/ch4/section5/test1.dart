@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_lab/ch4/section5/widgets/header_widget.dart';
+import 'package:flutter_lab/ch4/section5/widgets/icon_widget.dart';
 import 'package:flutter_lab/ch4/section5/widgets/imgae_widget.dart';
 
 main() => runApp(MyApp());
@@ -13,7 +14,8 @@ class MyApp extends StatelessWidget {
         body: Column(
           children: [
             HeaderWidget(),
-            ImageWidget()
+            ImageWidget(),
+            IconWidget()
           ],
         ),
       ),
